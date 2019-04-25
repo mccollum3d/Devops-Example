@@ -6,5 +6,6 @@ import com.revature.model.Todo;
 
 public interface TodoDao {
 
-	List<Todo> getAllTodos();
+	List<Todo> getAllTodosByUsername(String username);
+	Todo createTodo(Todo todo, String username);
 }
