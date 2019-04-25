@@ -62,7 +62,7 @@
 						<server>maven</server>
 						<!-- what path to deploy to tomcat, then would be 
 							available at your.aws.ip:8080/example  -->
-						<path>/example</path>
+						<path>/DevopsExample</path>
 					</configuration>
 				</plugin>
 			</plugins>
